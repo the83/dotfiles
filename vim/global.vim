@@ -75,12 +75,12 @@ set smartcase                              " Switch to case sensitive mode if ne
 " DEFAULT COLOURS FOR VIM - GVIMRC OVERRIDES THIS
 "-------------------------------------------------
 "
-let g:solarized_termtrans = 1
+set background=dark
+let g:solarized_termcolors = 256
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
-let g:solarized_termcolors = 256
+let g:solarized_termtrans = 1
 colorscheme solarized
-set background=dark
 
 if has("mouse")
   set mouse=a
