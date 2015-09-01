@@ -20,7 +20,7 @@ set vb t_vb=                               " Turn off bell
 set mouse=a                                " Enable the mouse
 set linespace=3                            " Spacing between lines
 set noswapfile                             " Disable creation of *.swp files
-set t_Co=256                               " Support for xterm with 256 colors (gets overriden in .gvimrc)
+" set t_Co=256                               " Support for xterm with 256 colors (gets overriden in .gvimrc)
 set autoread                               " Autoload files
 set tags+=tags                            " Set ctags
 set tags+=.tags
@@ -75,12 +75,12 @@ set smartcase                              " Switch to case sensitive mode if ne
 " DEFAULT COLOURS FOR VIM - GVIMRC OVERRIDES THIS
 "-------------------------------------------------
 "
-set background=dark
-let g:solarized_termcolors = 256
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
-let g:solarized_termtrans = 1
-colorscheme solarized
+" let g:solarized_termcolors = 256
+" let g:solarized_visibility = "high"
+" let g:solarized_contrast = "high"
+" let g:solarized_termtrans = 1
+" colorscheme solarized
+colorscheme Tomorrow-Night
 
 if has("mouse")
   set mouse=a

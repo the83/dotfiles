@@ -23,6 +23,9 @@ Plugin 'Blackrush/vim-gocode'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-commentary'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'lsdr/monokai'
+Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 call vundle#end()
 filetype plugin indent on     " required!
