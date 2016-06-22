@@ -27,6 +27,11 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'lsdr/monokai'
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'rking/ag.vim'
+Plugin 'skwp/greplace.vim'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-bundler'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on     " required!

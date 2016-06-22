@@ -40,9 +40,10 @@ let g:ctrlp_user_command = {
 
 
 " SYNTAX
-" let g:syntastic_ruby_checkers=['rubylint']
+let g:syntastic_ruby_checkers=['rubylint']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['javascript', 'coffee'] }
-
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " Rspec
 let g:rspec_command = "!bundle exec rspec -fd --tty --color {spec}"
