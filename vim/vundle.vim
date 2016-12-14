@@ -32,6 +32,7 @@ Plugin 'skwp/greplace.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'mxw/vim-jsx'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 filetype plugin indent on     " required!
