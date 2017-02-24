@@ -39,12 +39,6 @@ let g:ctrlp_user_command = {
     \ }
 
 
-" SYNTAX
-let g:syntastic_ruby_checkers=['rubylint']
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['javascript', 'coffee'] }
-let g:jsx_ext_required = 0 " Allow JSX in normal JS files
-
 " Rspec
 let g:rspec_command = "!bundle exec rspec -fd --tty --color {spec}"
 
@@ -62,3 +56,15 @@ let g:SuperTabClosePreviewOnPopupClose = 1
 
 " GO
 let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:deoplete#enable_at_startup = 1
+let g:go_list_type = "quickfix"
+set completeopt+=noinsert
+set completeopt+=noselect
+set completeopt-=preview
+
+let g:deoplete#enable_profile = 1

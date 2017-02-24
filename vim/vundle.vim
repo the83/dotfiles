@@ -1,47 +1,35 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+call plug#begin('~/.vim/plugged')
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'mileszs/ack.vim'
 
-" let Vundle manage Vundle required!
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-endwise'
-Plugin 'ervandew/supertab'
-Plugin 'fatih/vim-go'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'scrooloose/syntastic'
-Plugin 'othree/html5.vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'Blackrush/vim-gocode'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'tpope/vim-commentary'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'lsdr/monokai'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'rking/ag.vim'
-Plugin 'skwp/greplace.vim'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-bundler'
-Plugin 'mxw/vim-jsx'
-Plugin 'tpope/vim-surround'
+Plug 'fatih/vim-go'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 
-call vundle#end()
-filetype plugin indent on     " required!
-"
-" Brief help
-" :PluginList          - list configured bundles
-" :PluginInstall(!)    - install(update) bundles
-" :PluginSearch(!) foo - search(or refresh cache first) for foo
-" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Plugin command are not allowed..
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-endwise'
+Plug 'ervandew/supertab'
+Plug 'thoughtbot/vim-rspec'
+Plug 'neomake/neomake'
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'nanotech/jellybeans.vim'
+Plug 'vim-ruby/vim-ruby'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-commentary'
+Plug 'leafgarland/typescript-vim'
+Plug 'lsdr/monokai'
+Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'rking/ag.vim'
+Plug 'skwp/greplace.vim'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-surround'
+Plug 'rdolgushin/groovy.vim'
+
+call plug#end()

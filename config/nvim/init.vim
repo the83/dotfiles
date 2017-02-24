@@ -1,0 +1,9 @@
+" Source:
+source ~/.vim/go.vim
+source ~/.vim/vundle.vim
+source ~/.vim/global.vim
+source ~/.vim/keybindings.vim
+source ~/.vim/plugin_config.vim
+source ~/.vim/auto_commands.vim
+source ~/.vim/search.vim
+source ~/.vim/commands.vim
