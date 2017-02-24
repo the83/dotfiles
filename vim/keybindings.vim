@@ -49,11 +49,14 @@ map <Leader>rr :call RunLastSpec()<CR>
 map <Leader>ra :call RunAllSpecs()<CR>
 
 " Navigation
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-nnoremap <C-x> <C-w>q
+if has('nvim') "horrible neovim hack
+  nmap <BS> <C-W>h
+endif
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 noremap <leader>l :Align
 nnoremap <leader>a :Ag<space>
