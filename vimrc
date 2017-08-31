@@ -7,3 +7,4 @@ source ~/.vim/plugin_config.vim
 source ~/.vim/auto_commands.vim
 source ~/.vim/search.vim
 source ~/.vim/commands.vim
+source ~/.vim/operate_on_indent_levels.vim

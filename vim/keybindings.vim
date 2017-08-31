@@ -68,6 +68,7 @@ nnoremap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 nnoremap <leader><space> :call whitespace#strip_trailing()<CR>
 nnoremap <leader>g :GitGutterToggle<CR>
 nnoremap <leader>c <Plug>Kwbd
+nnoremap <space> za
 
 " GO
 au FileType go nmap <leader>r <Plug>(go-run)
@@ -75,3 +76,9 @@ au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 au FileType go nmap <Leader>e <Plug>(go-rename)
+
+" TypeScript
+au FileType typescript nmap <C-]> :TSDef<CR>
+au FileType typescript nmap <leader>td :TSDoc<CR>
+au FileType typescript nmap <leader>tr :TSRename<CR>
+au FileType typescript nmap <leader>ti :TSImport<CR>

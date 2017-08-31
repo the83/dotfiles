@@ -20,7 +20,6 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-commentary'
-Plug 'leafgarland/typescript-vim'
 Plug 'lsdr/monokai'
 Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plug 'mustache/vim-mustache-handlebars'
@@ -31,5 +30,7 @@ Plug 'tpope/vim-bundler'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-surround'
 Plug 'rdolgushin/groovy.vim'
+Plug 'mhartington/nvim-typescript'
+Plug 'HerringtonDarkholme/yats.vim'
 
 call plug#end()

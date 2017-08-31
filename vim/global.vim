@@ -28,6 +28,12 @@ set tags+=.gemtags                         " Set ctags
 set clipboard+=unnamed                     " Set system clipboard
 scriptencoding utf-8
 
+" ----------------------------------------------------------------------------
+"  Line Folkding
+" ----------------------------------------------------------------------------
+set foldmethod=indent
+set foldlevelstart=100
+
 " INDENTATION
 "-------------------------------------------------
 set shiftwidth=2                           " Number of spaces to use in each autoindent step
